@@ -1,0 +1,47 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5FEE3D48-5A5E-4316-9DD8-5195355F0EE2}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		CodeMaid.config = CodeMaid.config
+		GitVersionConfig.yaml = GitVersionConfig.yaml
+		license.md = license.md
+		readme.md = readme.md
+		SharedAssemblyInfo.props = SharedAssemblyInfo.props
+		Strict.ruleset = Strict.ruleset
+		stylecop.json = stylecop.json
+		Tests.ruleset = Tests.ruleset
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManagedGif", "ManagedGif\ManagedGif.csproj", "{FCC7801A-56D8-480D-8AD8-F0F698AA9E01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManagedGif.Tests", "ManagedGif.Tests\ManagedGif.Tests.csproj", "{C546252D-521D-44CA-A8C3-1F7AB9493397}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCC7801A-56D8-480D-8AD8-F0F698AA9E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC7801A-56D8-480D-8AD8-F0F698AA9E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC7801A-56D8-480D-8AD8-F0F698AA9E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC7801A-56D8-480D-8AD8-F0F698AA9E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C546252D-521D-44CA-A8C3-1F7AB9493397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C546252D-521D-44CA-A8C3-1F7AB9493397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C546252D-521D-44CA-A8C3-1F7AB9493397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C546252D-521D-44CA-A8C3-1F7AB9493397}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03CEE542-D01B-48AE-8529-296B5ED6F8F9}
+	EndGlobalSection
+EndGlobal
