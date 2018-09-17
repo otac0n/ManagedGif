@@ -1,15 +1,14 @@
 // Copyright © John Gietzen. All Rights Reserved. This source is subject to the MIT license. Please see license.md for more information.
 
-namespace ManagedGif.Tests
+namespace ManagedGif.Elements
 {
-    using Xunit;
+    using System.Drawing;
 
-    public class Class1Tests
+    public class LocalColorTable : ColorTable
     {
-        [Fact]
-        public void Who_When_What()
+        public LocalColorTable(Color[] value)
+            : base(value)
         {
-            var subject = new Class1();
         }
     }
 }
